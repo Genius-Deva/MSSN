@@ -37,3 +37,21 @@ const animateCounter = () => {
 };
 
 window.addEventListener("load", animateCounter);
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+
+    navLinks.classList.toggle("active");
+
+    if(navLinks.classList.contains("active")){
+
+        menuBtn.innerHTML = '<i class="fas fa-times"></i>';
+
+    }else{
+
+        menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+
+    }
+
+});

@@ -1,0 +1,224 @@
+/* =========================================
+   LARGE TABLETS (992px)
+========================================= */
+
+@media (max-width:992px){
+
+.navbar{
+    padding:18px 5%;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.overlay h2{
+    font-size:32px;
+}
+
+section{
+    padding:80px 5%;
+}
+
+}
+
+/* =========================================
+   TABLETS (768px)
+========================================= */
+
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:15px;
+}
+
+.navbar ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:15px;
+}
+
+.navbar ul li{
+    margin:8px 10px;
+}
+
+.hero{
+    height:90vh;
+}
+
+.overlay h1{
+    font-size:34px;
+}
+
+.overlay h2{
+    font-size:24px;
+}
+
+.overlay p{
+    font-size:16px;
+    padding:0 10px;
+}
+
+.btn,
+.btn2{
+    display:block;
+    width:220px;
+    margin:15px auto;
+}
+
+.vision-container,
+.department-container,
+.executive-container,
+.stats-container{
+    grid-template-columns:1fr;
+}
+
+.event-card{
+    flex-direction:column;
+}
+
+.event-date{
+    width:100%;
+    padding:20px;
+}
+
+.gallery-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gallery-grid img{
+    height:180px;
+}
+
+.executive-card img{
+    width:130px;
+    height:130px;
+}
+
+}
+
+/* =========================================
+   PHONES (576px)
+========================================= */
+
+@media (max-width:576px){
+
+.hero{
+    height:100vh;
+}
+
+.overlay h1{
+    font-size:28px;
+}
+
+.overlay h2{
+    font-size:20px;
+}
+
+.overlay p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+section h2{
+    font-size:28px;
+}
+
+.card,
+.department-card,
+.executive-card,
+.stat-box{
+    padding:25px;
+}
+
+.gallery-grid{
+    grid-template-columns:1fr;
+}
+
+.gallery-grid img{
+    height:220px;
+}
+
+.donation img{
+    width:100%;
+}
+
+footer{
+    font-size:14px;
+    padding:20px;
+}
+
+}
+
+/* =========================================
+   SMALL PHONES (400px)
+========================================= */
+
+@media (max-width:400px){
+
+.logo h2{
+    font-size:22px;
+}
+
+.overlay h1{
+    font-size:24px;
+}
+
+.overlay h2{
+    font-size:18px;
+}
+
+.btn,
+.btn2{
+    width:100%;
+}
+
+.navbar ul li{
+    margin:6px;
+}
+
+}
+@media(max-width:900px){
+
+.menu-btn{
+
+    display:block;
+
+}
+
+.nav-links{
+
+    position:fixed;
+
+    top:80px;
+    right:-100%;
+
+    width:280px;
+    height:100vh;
+
+    background:#003399;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    padding-top:40px;
+
+    transition:.4s;
+
+}
+
+.nav-links.active{
+
+    right:0;
+
+}
+
+.nav-links li{
+
+    margin:20px 0;
+
+}
+
+}
